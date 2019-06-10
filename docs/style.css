@@ -16,7 +16,7 @@ html {
 /*header*/
 .header {
     width: 100%;
-    height: 110px;
+    height: 7rem;
     color: #fff;
     background: linear-gradient(to right,rgb(38, 0, 153, 0.7) 0, rgb(153, 0, 51, 0.7) 100%);
 }
@@ -139,4 +139,32 @@ html {
     padding: 3px;
     width: 100px;
     text-align: center;
+}
+
+/*body*/
+.body {
+    width: 100%;
+}
+
+.body-left,
+.body-right {
+    display: inline-block;
+    width: 496px;
+    height: 34rem;
+    overflow-y: scroll;
+}
+
+.essay-title {
+    text-align: center;
+    line-height: 24px;
+    font-weight: 700;
+    padding-top: 32px;
+}
+
+.essay-container {
+    margin-top: 16px;
+    padding: 0 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+    outline: 0;
 }
